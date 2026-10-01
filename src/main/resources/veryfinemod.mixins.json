@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "sh.fluorine.veryfinemod",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"client": [
+		"RenderChunkMixin"
+	],
+	"server": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

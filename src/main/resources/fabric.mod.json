@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "averyfinemod",
+	"version": "${version}",
+	"name": "A very fine mod",
+	"description": "Some very fine distance effects from OptiFine",
+	"authors": [
+		"Skeletor (4194304)"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"mixins": [
+		"veryfinemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "*",
+		"osl-entrypoints": ">=0.4.0"
+	}
+}
